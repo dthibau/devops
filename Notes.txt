@@ -1,0 +1,5 @@
+Gitlab restet root password : 
+-----------------------------
+docker exec -it gitlab /bin/bash
+
+gitlab-rake "gitlab:password:reset[root]"
